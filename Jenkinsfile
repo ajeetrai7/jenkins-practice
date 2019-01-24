@@ -21,7 +21,7 @@ node {
   withCredentials([[$class: 'UsernamePasswordMultiBinding', 
                   credentialsId: credentialsId, 
                   usernameVariable: 'ajeetrai707', 
-                  passwordVariable: 'passwd']]) {
+                  passwordVariable: 'password']]) {
 
     sh("git config user.email ${ajeetrai707@gmail.com}")
     sh("git config user.name '${ajeetrai707}'")
